@@ -1,0 +1,60 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  div.logo img {
+    max-width: 70%;
+    height: auto;
+  }
+
+  div.logo {
+    width: 20%;
+    padding: 1%;
+    
+  }
+
+  nav {
+    width: 80%;
+    text-align: right;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+  }
+
+  ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-family: 'Titan One', cursive;
+
+  }
+
+  header.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .content p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px;
+  }
+
+  img {
+    max-width: 50%;
+    height: auto;
+    float: right;
+  }
